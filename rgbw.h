@@ -6,17 +6,8 @@ extern "C"
 {
 #endif
 #include <stdint.h>
-#include <YOUR_BOARD_CONFIG.h>
+#include <YOUR_BOARD_CONFIG.h> // Change this
 
-/*
-	clock     = 8MHz
-	1 cycle   = 125 ns
-	0 pulse   = 375 ns    = 3     cycles = 3 HIGH 9 LOW
-	1 pulse   = 750 ns    = 6     cycles = 6 HIGH 6 LOW
-	period    = 1500 ns   = 12    cycles
-	SET       = 80 us     = 640   cycles
-	TOTAL = 1024 cycles
-*/
 #define LED_PULSE_0 0xc0 // 0b11000000
 #define LED_PULSE_1 0xf8 // 0b11111000
 
