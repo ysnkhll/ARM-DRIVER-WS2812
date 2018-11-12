@@ -74,8 +74,8 @@ void setColor(uint8_t r, uint8_t g, uint8_t b, uint8_t w)
 
 void setLED(int color)
 {
-    encode(led);
-    SPI_Send(led, sizeof(led));
+    encode(led_buff);
+    SPI_Send(led_buff, sizeof(led_buff));
     led_updated = TRUE;
 }
 
