@@ -85,8 +85,8 @@ void encode(uint8_t *output)
 
     for (i = 0; i < 32; i++)
     {
-        if ((colors[i / 8] >> (i % 8)) & 1)
-        { //7 - i
+        if ((colors[i / 8] >> (i % 8)) & 1) //7 - i
+        {
             output[i] = LED_PULSE_1;
         }
         else
