@@ -50,4 +50,4 @@ _LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PUL
 
 
 _N.B. You may need to rearange the order of the `colors[4]` variable inside of the `setColor` function.
-My chips were arranged as GRBW as apposed to simply RGBW._
+My chips were arranged as GRBW as opposed to simply RGBW._
