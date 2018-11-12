@@ -102,8 +102,7 @@ void SPI_Send(uint8_t *command, uint8_t len)
     for (i = 0; i < len; i++)
     {
         /* Write data to send to TX FIFO */
-        while (RESET == SPI_GetFlagStatus(SPI_FLAG_TFE))
-            ;
+        while (RESET == SPI_GetFlagStatus(SPI_FLAG_TFE));
         SPI_SendData(command[i]);
     }
 }
