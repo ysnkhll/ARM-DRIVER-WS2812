@@ -43,6 +43,7 @@ _(Pulses a logic `1` to the WS2812)_</br>
 
 Thus, the output buffer `led_buffer` is encoded to contain 8 values of `LED_PULSE_X` for each color (R,G,B,W).</br>
 Here is an example of what setting the device to purley Green (0, 255, 0, 0) would look like:</br>
+</br>
 _LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PULSE_0_  "R"</br>
 _LED_PULSE_1 LED_PULSE_1 LED_PULSE_1 LED_PULSE_1 LED_PULSE_1 LED_PULSE_1 LED_PULSE_1 LED_PULSE_1_  "G"</br>
 _LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PULSE_0 LED_PULSE_0_  "B"</br>
