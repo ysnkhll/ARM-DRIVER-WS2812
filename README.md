@@ -6,12 +6,10 @@ This implementation uses SPI to generate the clock. Most of the functionality is
 ## Usage
 
 ### Initialization
----
 1. LED_Configuration();
 2. SPI_Configuration();
 
 ### Runtime
----
 1. setColor(uint8_t r, uint8_t g, uint8_t b, uint8_t w);
 2. setLED(int color);
 3. SPI_Send(uint8_t *command, uint8_t len);
