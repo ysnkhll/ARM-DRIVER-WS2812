@@ -20,6 +20,18 @@ void SPI_Send(uint8_t *command, uint8_t len);
 
 // Globals
 extern volatile uint8_t led_updated;
+  
+// Colors
+#define GREEN 0, 255, 0, 0
+#define ORANGE 255, 165, 0, 0
+#define RED 255, 0, 0, 0
+#define BLUE 0, 0, 255, 0
+#define PINK 255, 105, 180, 0
+#define PURPLE 128, 0, 128, 0
+#define BLE_ADVERTISING_COLOR 0, 255, 255, 0 // Cyan
+#define BLE_CONNECTED_COLOR 0, 255, 127, 0   // Spring Green
+#define BLE_TRANSMIT_COLOR 255, 0, 255, 0    // Magenta
+
 
 #ifdef __cplusplus
 }
