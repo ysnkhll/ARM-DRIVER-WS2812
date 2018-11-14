@@ -9,7 +9,7 @@ This implementation uses SPI to generate the clocked output. Most of the functio
 1. LED_Configuration();
 2. SPI_Configuration();
 
-### Runtime
+### Change color
 1. setColor(uint8_t r, uint8_t g, uint8_t b, uint8_t w);
 2. setLED(int color);
 3. SPI_Send(uint8_t *command, uint8_t len);
