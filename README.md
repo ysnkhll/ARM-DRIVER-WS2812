@@ -11,8 +11,12 @@ This implementation uses SPI to generate the clocked output. Most of the functio
 
 ### Change color
 1. setColor(uint8_t r, uint8_t g, uint8_t b, uint8_t w);
-2. setLED(int color);
-3. SPI_Send(uint8_t *command, uint8_t len);
+2. setLED();
+3. SPI_Send(uint8_t *command, uint8_t len);</br>
+
+_N.B. You can also use a macro in the setColor function like so:_</br>
+`#define RED 255,0,0,0`</br>
+`setColor(RED);`
 
 ## Explanation
 _(You may need to play with these values as it may vary per system)_
