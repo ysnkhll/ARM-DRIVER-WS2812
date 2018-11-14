@@ -14,7 +14,7 @@ extern "C"
 void LED_Configuration(void);
 void SPI_Configuration(void);
 void setColor(uint8_t r, uint8_t g, uint8_t b, uint8_t w);
-void setLED(int color);
+void setLED();
 void encode(uint8_t *output);
 void SPI_Send(uint8_t *command, uint8_t len);
 
